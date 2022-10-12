@@ -1,0 +1,15 @@
+# Folders 
+catboost_info/
+.ipynb_checkpoints/
+
+# Others
+logs.log
+CV
+document/*
+
+# requirements is only used for Installing python and running Jupyter Notebook - Option 1: Using pip
+requirements.txt
+
+# data
+data/output/data_final.csv
+data/output/data_merged.csv
