@@ -7,7 +7,10 @@ logs.log
 CV
 document/*
 
-# requirements is only used for Installing python and running Jupyter Notebook - Option 1: Using pip
+# Pruebas
+notebooks/1. regression.ipynb
+
+# requirements is only used for Installing python and running Jupyter Notebook - Option 1: Using pipenv
 requirements.txt
 
 # data

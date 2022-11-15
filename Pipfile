@@ -1,20 +1,20 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-numpy = "*"
+imblearn = "==0.0"
+jupyter = "==1.0.0"
+jupyter-core = "==4.11.1"
 matplotlib = "*"
-seaborn = "*"
+numpy = "==1.19.5"
+pandas = "*"
 pandas-profiling = "*"
-ipywidgets = "*"
-shap = "*"
-astroid = "*"
-jupyterlab = "*"
-ipykernel = "*"
-jupyter = "*"
+scikit-learn = "==0.23.2"
+seaborn = "*"
+shap = "==0.41.0"
+folium = "*"
 meteostat = "*"
 
 [dev-packages]
@@ -24,4 +24,4 @@ python_version = "3.8"
 
 [packages.pycaret]
 extras = [ "full",]
-version = "*"
+version = "==2.3.10"
